@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class StreetController extends Controller
 {
     public function index(){
-        return view('street');
+        return view('street/street');
     }
 }
