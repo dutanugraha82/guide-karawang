@@ -15,7 +15,17 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Route of Food & Beverages
+Route::controller(FNBController::class)->group(function () {
+    Route::get('/','index');
+});
 
-Route::get('/', [FNBController::class, 'index']);
-Route::get('/hisgov',[HisGovController::class, 'index']);
-Route::get('/street', [StreetController::class, 'index']);
+// Route of History and Goverment
+Route::controller(HisGovController::class)->group(function () {
+    Route::get('/hisgov','index');
+});
+
+// Route of Stree Food
+Route::controller(StreetController::class)->group(function () {
+    Route::get('/street','index');
+});
