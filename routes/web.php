@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 // Route of Food & Beverages
 Route::controller(FNBController::class)->group(function () {
     Route::get('/','index');
