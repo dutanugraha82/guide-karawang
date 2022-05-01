@@ -12,7 +12,7 @@
 {{-- card --}}
 <div class="container">
 	<div class="row">
-		<div class="col-sm-4">
+		<div class="col-sm-4 mr-sm-4 mr-md-0">
 			<div class="card" style="width: 18rem;">
 				<img src="{{ asset('assets/img/tes.jpg') }}" class="card-img-top" alt="...">
 				<div class="card-body">
@@ -47,24 +47,26 @@
 
 {{-- Footer --}}
 <footer>
-	<div class="row row-footer">
-		<div class="col-sm-2">
-			<h1>Guidekrw</h1>
+<div class="container-fluid text-center text-md-left">
+	<div class="row row-footer ">
+		<div class="col-md-2">
+			<h2>Guidekrw</h2>
 		</div>
-		<div class="col-sm-7">
+		<div class="col-md-7">
 			<h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, odio.</h5>
 			<hr>
 			<p>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum error quibusdam laboriosam illo perferendis odio tempore eius doloremque in impedit.
 			</p>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-md-3">
 			<h5>Lorem ipsum dolor sit.</h5>
 			<hr>
 			<p>Lorem</p>
 			<p>ipsum.</p>
 		</div>
 	</div>
+</div>
 </footer>
 @endsection
 

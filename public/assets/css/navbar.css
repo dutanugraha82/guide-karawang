@@ -13,7 +13,7 @@
     .nav-link:hover::after {
         content: '';
         display: block;
-        border-bottom: 3px solid blue;
+        border-bottom: 3px solid black;
         width: 50%;
         margin: auto;
         padding-bottom: 3px;

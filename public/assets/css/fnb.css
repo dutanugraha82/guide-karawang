@@ -4,13 +4,12 @@
     height: 640px;
 }
 
-footer {
+.container-fluid{
+    background-color: rgb(71, 71, 71) ;
     margin-top: 100px;
-    background-color: rgb(71, 71, 71);
-    height: 200px;
 }
 
 footer .row-footer {
-    padding: 30px;
+    padding: 35px;
     color: rgb(214, 214, 214);
 }

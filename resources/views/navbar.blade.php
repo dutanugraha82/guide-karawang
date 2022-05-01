@@ -6,9 +6,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav ml-auto">
-			<a class="nav-link active" href="#">Food & Beverages <span class="sr-only">(current)</span></a>
+			<a class="nav-link active" href="#">Foods & Beverages <span class="sr-only">(current)</span></a>
 			<a class="nav-link" href="#">Street Foods</a>
-			<a class="nav-link" href="#">History & Goverment</a>
+			<a class="nav-link" href="#">History & Government</a>
 			<a class="nav-link" href="#">About</a>
 			</div>
     </div>
