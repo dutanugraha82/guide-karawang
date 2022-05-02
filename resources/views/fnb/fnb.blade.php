@@ -5,40 +5,51 @@
 @section('content')
 <div class="jumbotron jumbotron-fluid">
 	<div class="container">
-		<h1 class="display-4">Fluid jumbotron</h1>
-		<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+		<h1 class="display-4">Foods And Beverages</h1>
+		<p class="lead">All you need about Foods and Beverages is here!</p>
 	</div>
 </div>
 {{-- card --}}
-<div class="container">
+<div class="container-md container-fluid">
 	<div class="row">
-		<div class="col-sm-4 mr-sm-4 mr-md-0">
-			<div class="card" style="width: 18rem;">
+		<div class="col-md-4">
+			<div class="card mx-auto" style="width: 18rem;">
 				<img src="{{ asset('assets/img/tes.jpg') }}" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
+					<h5 class="card-title text-center">Card title</h5>
 					<hr>
-					<p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque perferendis magni quisquam laboriosam molestiae tempora libero nobis. Totam ipsa nihil ullam tenetur, iste delectus autem earum dicta beatae nesciunt! Repellendus quisquam molestiae accusamus officiis doloribus sint perferendis id, saepe mollitia, pariatur earum culpa nam sit dolor consequuntur nobis, ad ducimus.</p>
+					<p class="card-text">08:00 - 22:00 <br>
+						instagram <br>
+						089887889778899 <br>
+						Address</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-4">
-			<div class="card" style="width: 18rem;">
+		<div class="col-md-4">
+			<div class="card mx-auto" style="width: 18rem;">
 				<img src="{{ asset('assets/img/tes.jpg') }}" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
+					<h5 class="card-title text-center">Name</h5>
 					<hr>
-					<p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque perferendis magni quisquam laboriosam molestiae tempora libero nobis. Totam ipsa nihil ullam tenetur, iste delectus autem earum dicta beatae nesciunt! Repellendus quisquam molestiae accusamus officiis doloribus sint perferendis id, saepe mollitia, pariatur earum culpa nam sit dolor consequuntur nobis, ad ducimus.</p>
+					<p class="card-text">08:00 - 22:00 <br>
+						instagram <br>
+						089887889778899 <br>
+						Address</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-4">
-			<div class="card" style="width: 18rem;">
+		<div class="col-md-4">
+			<div class="card mx-auto" style="width: 18rem;">
 				<img src="{{ asset('assets/img/tes.jpg') }}" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
+					<h5 class="card-title text-center">Card title</h5>
 					<hr>
-					<p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque perferendis magni quisquam laboriosam molestiae tempora libero nobis. Totam ipsa nihil ullam tenetur, iste delectus autem earum dicta beatae nesciunt! Repellendus quisquam molestiae accusamus officiis doloribus sint perferendis id, saepe mollitia, pariatur earum culpa nam sit dolor consequuntur nobis, ad ducimus.</p>
+					<p class="card-text">
+						08:00 - 22:00 <br>
+						instagram <br>
+						089887889778899 <br>
+						Address
+					 </p>
 				</div>
 			</div>
 		</div>
@@ -47,9 +58,9 @@
 
 {{-- Footer --}}
 <footer>
-<div class="container-fluid text-center text-md-left">
+<div class="container-fluid">
 	<div class="row row-footer ">
-		<div class="col-md-2">
+		<div class="col-lg-2 mb-4 mb-md-0 text-center text-md-left">
 			<h2>Guidekrw</h2>
 		</div>
 		<div class="col-md-7">

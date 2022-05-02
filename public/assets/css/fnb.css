@@ -1,15 +1,15 @@
 .jumbotron {
     /* background-image: url(../img/tes.jpg); */
     background-size: cover;
-    height: 640px;
+    height: 16rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-.container-fluid{
-    background-color: rgb(71, 71, 71) ;
-    margin-top: 100px;
-}
 
 footer .row-footer {
     padding: 35px;
-    color: rgb(214, 214, 214);
+    color: white;
+    background-color: black ;
+    margin-top: 100px;
 }
