@@ -13,3 +13,15 @@ footer .row-footer {
     background-color: black ;
     margin-top: 100px;
 }
+
+.btn-dark{
+    background-color: black;
+}
+.btn-dark:hover{
+    background-color: white;
+    color: black;
+}
+
+.jumbotron{
+    background-image: url('../img/fnbJumbotron.jpeg');
+}

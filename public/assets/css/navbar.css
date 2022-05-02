@@ -13,10 +13,14 @@
     .nav-link:hover::after {
         content: '';
         display: block;
-        border-bottom: 3px solid black;
+        border-bottom: 3px solid white;
         width: 50%;
         margin: auto;
         padding-bottom: 3px;
         margin-bottom: -6px;
     }
+}
+
+.dark{
+    background-color: black;
 }
