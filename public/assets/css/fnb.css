@@ -25,3 +25,8 @@ footer .row-footer {
 .jumbotron{
     background-image: url('../img/fnbJumbotron.jpeg');
 }
+
+/* carousel detail */
+.carousel{
+    margin-top: 80px;
+}

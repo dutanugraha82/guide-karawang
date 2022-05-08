@@ -30,3 +30,8 @@ Route::controller(HisGovController::class)->group(function () {
 Route::controller(StreetController::class)->group(function () {
     Route::get('/street','index');
 });
+
+// Detail dari FNB
+Route::get('/detail/fnb', function(){
+    return view('fnb/detail');
+});
