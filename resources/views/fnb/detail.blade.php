@@ -1,5 +1,12 @@
 @extends('master')
 @section('content')
+
+<style>
+  .title span{
+    font-size: 100px;
+  }
+</style>
+
 <div class="container carousel">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -29,7 +36,10 @@
   </div>
 </div>
 
-    <h3 class="text-center mt-3">Salapan Djati</h3>
+  <div class="container title">
+    <h1 class="text-left mt-2"><span class="big">Salapan</span><br>Djati</h1>
+    <hr>
+  </div>
 
   <div class="container mt-2">
     <ul class="nav justify-content-center">

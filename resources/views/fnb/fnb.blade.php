@@ -23,7 +23,10 @@
 						089887889778899 <br>
 						Address
 					</p>
-					<a href="/detail/fnb" class="btn btn-dark d-block"> Detail </a> {{-- Nanti urlnya disesuaikan, ini hanya contoh untuk direct ke salah satu tempat untuk detailnya --}}
+					<a href="/detail/food&beverages" class="btn btn-dark d-block"> Detail </a> 
+					{{-- <a href="/detail/fnb" class="btn btn-dark d-block"> Detail </a>  --}}
+					{{-- Nanti urlnya disesuaikan, ini hanya contoh untuk direct ke salah satu tempat untuk detailnya --}}
+					{{-- Oke Dut, Nice  --}}
 
 				</div>
 				

@@ -3,5 +3,5 @@
 @section('subtitle','History and Goverment')
 
 @section('content')
-  
+
 @endsection

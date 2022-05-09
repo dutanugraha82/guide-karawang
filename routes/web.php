@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 // Route of Food & Beverages
 Route::controller(FNBController::class)->group(function () {
     Route::get('/','index');
+    Route::get('/detail/food&beverages','detail');
 });
 
 // Route of History and Goverment
@@ -32,6 +33,6 @@ Route::controller(StreetController::class)->group(function () {
 });
 
 // Detail dari FNB
-Route::get('/detail/fnb', function(){
-    return view('fnb/detail');
-});
+// Route::get('/detail/fnb', function(){
+//     return view('fnb/detail');
+// });
