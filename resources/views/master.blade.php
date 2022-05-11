@@ -10,8 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/fnb.css') }}">
 
-  {{-- Style Footer --}}
     <style>
+     body, html {
+       background-color: #eaeaea;
+     }
+
       footer {
         padding: 35px;
         color: white;

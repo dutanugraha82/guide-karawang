@@ -2,9 +2,14 @@
 @section('content')
 
 <style>
-  .title span{
-    font-size: 100px;
+  .card-title span{
+    font-size: 4em;
   }
+
+  .card-text {
+    color: #8d8d8d;
+  }
+
 </style>
 
 <div class="container carousel">
@@ -36,12 +41,44 @@
   </div>
 </div>
 
-  <div class="container title">
-    <h1 class="text-left mt-2"><span class="big">Salapan</span><br>Djati</h1>
-    <hr>
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><span>salapan</span><br>Djatii</h5>
+          <hr>
+          <p class="card-text"><span>(*)</span> Alamat</p>
+          <p class="card-text"><span>(*)</span> Open at 6 amtill 9 pm</p>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
 
-  <div class="container mt-2">
+<div class="container mt-5">
+  <div class="card text-center">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="true" href="#">Foods</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="true" href="#">Beverages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="true" href="#">About</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div>
+</div>
+
+  {{-- <div class="container sub-menu mt-2">
     <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link" href="#">Foods</a>
@@ -53,5 +90,5 @@
           <a class="nav-link" href="#">About</a>
         </li>
       </ul>
-  </div>
+  </div> --}}
 @endsection
