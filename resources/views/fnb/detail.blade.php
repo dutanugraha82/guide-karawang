@@ -46,7 +46,7 @@
     <div class="col">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title"><span>salapan</span><br>Djatii</h5>
+          <h5 class="card-title"><span>salapan</span><br>Djati</h5>
           <hr>
           <p class="card-text"><span>(*)</span> Alamat</p>
           <p class="card-text"><span>(*)</span> Open at 6 amtill 9 pm</p>
@@ -57,38 +57,81 @@
 </div>
 
 <div class="container mt-5">
-  <div class="card text-center">
+  <div class="card">
     <div class="card-header">
-      <ul class="nav nav-tabs card-header-tabs">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="true" href="#">Foods</a>
+      <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item text-center" role="presentation">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="true" href="#">Beverages</a>
+        <li class="nav-item text-center" role="presentation">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Beverages</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link " aria-current="true" href="#">About</a>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">About</a>
         </li>
       </ul>
+      <div class="tab-content" id="pills-tabContent">
+
+        {{-- Foods Menu Start --}}
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nasi Goreng</td>
+                <td>Rp 24,000</td>
+                <td>Main Course</td>
+              </tr>
+              <tr>
+                <td>Pisang Keju Alaska</td>
+                <td>Rp 25,000</td>
+                <td>Snack</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        {{-- Foods Menu End --}}
+
+        {{-- Beverages Menu Start --}}
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>V60</td>
+                <td>Rp 24,000</td>
+                <td>Coffee</td>
+              </tr>
+              <tr>
+                <td>Matcha</td>
+                <td>Rp 21,000</td>
+                <td>SoftDrink</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        {{-- Beverages Menu End --}}
+
+        {{-- About Start --}}
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor consequuntur animi sint rerum, illo, maxime perferendis iure repellat omnis soluta inventore! Corrupti sunt omnis voluptatem dolores, reiciendis in doloribus?
+        </div>
+        {{-- About End --}}
+      </div>
     </div>
-    <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    </div>
+    
   </div>
 </div>
-
-  {{-- <div class="container sub-menu mt-2">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Foods</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Beverages</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-      </ul>
-  </div> --}}
 @endsection

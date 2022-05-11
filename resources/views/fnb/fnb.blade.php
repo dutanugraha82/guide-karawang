@@ -16,7 +16,7 @@
 			<div class="card mx-auto" style="width: 16rem;">
 				<img src="{{ asset('assets/img/logoSalapanDjati.jpg') }}" class="card-img-top" alt="...">
 				<div class="card-body">
-					<h5 class="card-title text-center">Card title</h5>
+					<h5 class="card-title text-center">Salapan Djati</h5>
 					<hr>
 					<p class="card-text">08:00 - 22:00 <br>
 						instagram <br>
