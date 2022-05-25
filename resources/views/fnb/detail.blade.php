@@ -21,13 +21,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="{{ asset('assets/img/salapanDjatii.jpg') }}" class="d-block w-100 mx-auto" alt="...">
+        <img src="{{ asset('assets/img/salapanDjatii.jpg') }}" class="d-block w-100 mx-auto rounded" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="{{ asset('assets/img/salapanDjatii.jpg') }}" class="d-block w-100 mx-auto" alt="...">
+        <img src="{{ asset('assets/img/salapanDjatii.jpg') }}" class="d-block w-100 mx-auto rounded" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="{{ asset('assets/img/salapanDjatiii.jpg') }}" class="d-block w-100 mx-auto" alt="...">
+        <img src="{{ asset('assets/img/salapanDjatiii.jpg') }}" class="d-block w-100 mx-auto rounded" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
@@ -56,12 +56,18 @@
   </div>
 </div>
 
-<div class="container mt-5">
-  <div class="card">
+<div class="container mt-5 rounded-lg">
+  <div class="card-header text-center text-white" style="background-color:black;">
+    Menu
+  </div>
+</div>
+
+<div class="container mt-2">
+  <div class="card shadow-lg">
     <div class="card-header">
       <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
         <li class="nav-item text-center" role="presentation">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Foods</a>
         </li>
         <li class="nav-item text-center" role="presentation">
           <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Beverages</a>
