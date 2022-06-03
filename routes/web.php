@@ -31,3 +31,7 @@ Route::controller(HisGovController::class)->group(function () {
 Route::controller(StreetController::class)->group(function () {
     Route::get('/street','index');
 });
+
+Route::get('/login', function(){
+    return view('login');
+});
