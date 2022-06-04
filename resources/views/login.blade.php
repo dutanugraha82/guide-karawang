@@ -11,10 +11,14 @@
     <title>Admin Login</title>
   </head>
   <body>
-    <div class="card mb-3 mx-auto shadow-lg" style="max-width: 540px;">
+
+    <div class="container">
+      <h3 class="font text-center">
+        Welcome to Guidekrw admin page!
+      </h3>
+    <div class="card mb-3 mx-auto shadow-lg rounded-lg" style="max-width: 540px;">
         <div class="row no-gutters">
-          <div class="col-4">
-            <img src="{{ asset('assets/img/logoSalapanDjati.jpg') }}">
+          <div class="col-4 img">
           </div>
           <div class="col-8">
             <div class="card-body">
@@ -31,13 +35,14 @@
                       <label for="exampleInputPassword1">Password</label>
                       <input type="password" class="form-control" id="exampleInputPassword1" required>
                     </div>
-                    <button type="submit" class="btn btn-primary mb-4">Submit</button>
+                    <button type="submit" class="btn btn-primary mb-4">LOGIN</button>
                     
                   </form>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
