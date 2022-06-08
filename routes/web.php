@@ -33,5 +33,9 @@ Route::controller(StreetController::class)->group(function () {
 });
 
 Route::get('/login', function(){
-    return view('login');
+    return view('admin.login');
+});
+
+Route::get('/input-data-fnb', function(){
+    return view('admin.input-fnb');
 });
