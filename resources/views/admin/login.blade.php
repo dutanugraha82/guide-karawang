@@ -7,44 +7,47 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
     <link rel="stylesheet" href="{{ asset('assets/css/login.css') }}">
-    <title>Admin Login</title>
+
+    <title>Guidekrw | Login</title>
   </head>
   <body>
-
-    <div class="container">
-      <h3 class="font text-center">
-        Welcome to Guidekrw admin page!
-      </h3>
-    <div class="card mb-3 mx-auto shadow-lg rounded-lg" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-4 img">
-          </div>
-          <div class="col-8">
-            <div class="card-body">
-                <form>
-                    <div class="text-center">
-                        <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Hello Admin!</h4>
-                        <small>Please Login.</small>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" autofocus required>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary mb-4">LOGIN</button>
-                    
-                  </form>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 ml-md-3 m-form">
+          <h4 class="text-white font text-center text-md-left"><b>Admin Login Page</b></h4>
+          <div class="card border border-primary">
+            <div class="card-header text-center">
+              <h4>Guidekrw.</h4>
             </div>
+            <div class="card-body">
+            <form class="p-3">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" autofocus required>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" required>
+              </div>
+              <a href="#" class="btn btn-primary" style="width: 150px">Login</a>
+            </form>
           </div>
+          <div class="card-footer">
+            <small>Guidekrw &copy;2022</small>
+          </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+          <div class="text-white m-form">
+          <h1>Guidekrw.</h1>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit exercitationem veritatis eius ab aliquid maiores eveniet repellendus repudiandae tempora fugit atque aliquam sunt consectetur facere voluptas, id cupiditate ad?
         </div>
       </div>
     </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

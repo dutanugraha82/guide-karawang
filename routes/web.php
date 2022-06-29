@@ -39,3 +39,7 @@ Route::get('/login', function(){
 Route::get('/input-data-fnb', function(){
     return view('admin.input-fnb');
 });
+
+Route::get('/dashboard', function(){
+    return view('admin.master');
+});
