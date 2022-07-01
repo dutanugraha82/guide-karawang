@@ -1,0 +1,35 @@
+.jumbotron {
+    /* background-image: url(../img/tes.jpg); */
+    background-size: cover;
+    height: 16rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card {
+    overflow: hidden;
+    background-position: center;
+}
+
+.card-img-top{
+    box-sizing: border-box;
+    height: 250px;
+    width: 100%;
+}
+
+.btn-dark{
+    background-color: black;
+}
+.btn-dark:hover{
+    background-color: white;
+    color: black;
+}
+
+.jumbotron{
+    background-image: url('../img/fnbJumbotron.jpeg');
+}
+
+/* carousel detail */
+.carousel{
+    margin-top: 80px;
+}

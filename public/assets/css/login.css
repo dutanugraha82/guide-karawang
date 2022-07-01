@@ -1,0 +1,20 @@
+
+body {
+    background: rgb(26,24,60);
+    background: linear-gradient(90deg, rgba(26,24,60,1) 0%, rgba(132,165,192,1) 100%);
+}
+
+.font{
+    font-family: monospace;
+}
+
+h3{
+    margin-top: 140px;
+}
+
+.m-form{
+    margin-top: 4rem;
+}
+ .card {
+     border-radius: 15px;
+ }
