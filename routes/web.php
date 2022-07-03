@@ -16,21 +16,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route of Food & Beverages
-Route::controller(FNBController::class)->group(function () {
-    Route::get('/','index');
-    Route::get('/detail/food&beverages','detail');
+Route::get('/main',function() {
+    return view('menu/main');
 });
+
+// Route of Food & Beverages
+// Route::controller(FNBController::class)->group(function () {
+//     Route::get('/','index');
+//     Route::get('/detail/food&beverages','detail');
+// });
 
 // Route of History and Goverment
-Route::controller(HisGovController::class)->group(function () {
-    Route::get('/hisgov','index');
-});
+// Route::controller(HisGovController::class)->group(function () {
+//     Route::get('/hisgov','index');
+// });
 
 // Route of Stree Food
-Route::controller(StreetController::class)->group(function () {
-    Route::get('/street','index');
-});
+// Route::controller(StreetController::class)->group(function () {
+//     Route::get('/street','index');
+// });
 
 Route::get('/login', function(){
     return view('admin.login');

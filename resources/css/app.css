@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-slate-900 text-6xl font-bold;
+  }
+}
+
+@layer components {
+  .hero {
+    @apply bg-white flex;
+  }
+}
