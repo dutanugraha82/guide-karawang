@@ -10,6 +10,6 @@
 
 @layer components {
   .hero {
-    @apply bg-white flex;
+    @apply bg-white max-w-xl sm:max-w-3xl md:max-w-5xl md:flex lg:max-w-7xl;
   }
 }
