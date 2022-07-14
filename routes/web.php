@@ -20,6 +20,10 @@ Route::get('/main',function() {
     return view('menu/main');
 });
 
+Route::get('/', function(){
+    return view ('menu/fnb');
+});
+
 // Route of Food & Beverages
 // Route::controller(FNBController::class)->group(function () {
 //     Route::get('/','index');
